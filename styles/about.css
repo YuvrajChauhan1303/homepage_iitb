@@ -1,0 +1,25 @@
+.about-content {
+  max-width: 48rem;
+}
+
+.about-content p {
+  margin: 0 0 2rem;
+
+  color: #444;
+
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+
+.about-content p:last-child {
+  margin-bottom: 0;
+}
+
+.about-content strong {
+  color: #111;
+}
+
+.blue {
+  color: #0066cc;
+  font-weight: 600;
+}

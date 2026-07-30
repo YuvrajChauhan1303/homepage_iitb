@@ -1,0 +1,41 @@
+.contact-table {
+  width: min(40rem, 100%);
+  margin-top: 3rem;
+
+  border-collapse: collapse;
+}
+
+.contact-table tr {
+  border-bottom: 1px solid #ececec;
+}
+
+.contact-table td {
+  padding: 1.2rem 0;
+}
+
+.contact-table td:first-child {
+  width: 10rem;
+
+  color: #888;
+
+  font-size: 0.9rem;
+  font-weight: 600;
+
+  letter-spacing: 0.08rem;
+  text-transform: uppercase;
+}
+
+.contact-table td:last-child {
+  font-size: 1.05rem;
+}
+
+.contact-table a {
+  color: #111;
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.contact-table a:hover {
+  text-decoration: underline;
+}

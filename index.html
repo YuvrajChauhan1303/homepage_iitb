@@ -2,24 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Yuvraj Chauhan</title>
 
     <link rel="icon" type="image/png" href="./images/yuvi.ico" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="fonts.css" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
+    <link rel="stylesheet" href="./styles/areas.css" />
+    <link rel="stylesheet" href="./styles/contact.css" />
+    <link rel="stylesheet" href="./styles/publications.css" />
+    <link rel="stylesheet" href="./styles/experience.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.25/dist/lenis.css"
     />
   </head>
 
   <body class="montserrat">
     <div class="hero">
       <div class="hero-content">
-        <p class="hello-txt">Hi, Its</p>
+        <p class="hello-txt">Hi, It's</p>
 
         <h1 id="name"></h1>
 
@@ -31,8 +45,7 @@
 
         <p class="description">
           Research interests in Cryptography, Security & Privacy, Machine
-          Learning, and Computing Systems. Passionate about building secure and
-          intelligent software.
+          Learning, and Computing Systems.
         </p>
 
         <div class="hero-buttons">
@@ -46,177 +59,309 @@
       </div>
     </div>
 
-    <div class="about">
-      <h2>About Me</h2>
+    <div class="about" id="about">
+      <div class="section-title">
+        <span>01</span>
+        <h2>About Me</h2>
+      </div>
 
-      <p>
-        I'm a <span class="bold">Master of Technology student</span> in the
-        Department of Computer Science and Engineering at
-        <span class="blue">Indian Institute of Technology Bombay</span>. I
-        completed my undergraduate degree in Computer Science and Engineering
-        from the Indian Institute of Information Technology Vadodara
-        (International Campus Diu).
-      </p>
+      <div class="about-content">
+        <p>
+          I'm a <strong>Master of Technology student</strong> in the Department
+          of Computer Science and Engineering at
+          <span class="blue"> Indian Institute of Technology Bombay </span>. I
+          completed my undergraduate degree in Computer Science and Engineering
+          from the Indian Institute of Information Technology Vadodara
+          (International Campus Diu).
+        </p>
 
-      <p>
-        My interests span multiple areas of computer science, including
-        Cryptography, Security & Privacy, Machine Learning, Web Development,
-        Full-Stack Development, Metaverse, Virtual Reality, and Secret Image
-        Sharing.
-      </p>
+        <p>
+          My research interests lie in Cryptography, Security & Privacy, Machine
+          Learning, and Computing Systems. I enjoy designing secure systems
+          while exploring practical applications of intelligent computing and
+          modern AI.
+        </p>
 
-      <p>
-        I have served as a Teaching Assistant at IIIT Vadodara for three
-        semesters, assisting courses such as Physics Lab, Basics of Engineering
-        Lab, and Design & Analysis of Algorithms.
-      </p>
-
-      <p>
-        I have also worked as a Research Intern at the National Institute of
-        Technology Karnataka (NITK) and IIIT Vadodara. My research has resulted
-        in multiple journal and conference publications in the areas of
-        cryptography and authentication systems.
-      </p>
+        <p>
+          Previously, I served as a Teaching Assistant for three semesters and
+          completed research internships at the National Institute of Technology
+          Karnataka and IIIT Vadodara, resulting in multiple journal and
+          conference publications.
+        </p>
+      </div>
     </div>
 
-    <h2>Areas of Interests</h2>
+    <div class="areas">
+      <div class="section-title">
+        <span>02</span>
+        <h2>Areas of Interest</h2>
+      </div>
 
-    <ul>
-      <li>Cryptography</li>
-      <li>Security and Privacy</li>
-      <li>Cyber Security</li>
-      <li>Intelligent Systems - Deep Learning and Transformers</li>
-      <li>Machine Learning</li>
-      <li>Computing Systems</li>
-    </ul>
+      <ul class="areas-list">
+        <li>Cryptography</li>
 
-    <p>
-      Feel free to contact me if your interests align with mine, have a project
-      to discuss, or need help with coursework regarding these topics.
-      Appropriate contact information is listed below.
-    </p>
+        <li>Security & Privacy</li>
 
-    <table>
-      <tr>
-        <td class="cell1">Email</td>
-        <td>
-          <a href="mailto:26m0819@iitb.ac.in">26m0819@iitb.ac.in</a>
-        </td>
-      </tr>
+        <li>Cyber Security</li>
 
-      <tr>
-        <td>Phone</td>
-        <td><a href="tel:+918511538354">+91 8511538354</a></td>
-      </tr>
+        <li>Machine Learning</li>
 
-      <tr>
-        <td>Alt. Phone</td>
-        <td><a href="tel:+918866994461">+91 8866994461</a></td>
-      </tr>
+        <li>Deep Learning</li>
 
-      <tr>
-        <td>Website</td>
-        <td>
-          <a href="https://dcodr1303.vercel.app" target="_blank">
-            dcodr1303.vercel.app
-          </a>
-        </td>
-      </tr>
-    </table>
+        <li>Transformers</li>
 
-    <h2>Publications</h2>
+        <li>Computing Systems</li>
 
-    <p>
-      As a result of my research internships, I have contributed to several
-      publications in journals and conferences as a first author and co-author.
-    </p>
+        <li>Authentication</li>
 
-    <h3>Journals</h3>
+        <li>Web Development</li>
 
-    <ol>
-      <li>
-        <span class="bold">Y. Chauhan</span>, S. Sharma, G. Pareek, and P. B.
-        R.,
-        <span class="italics">
-          "SO-SIS : Storage-Optimized Secret Image Sharing Scheme with Reduced
-          Share Size" </span
-        >, submitted to Operations Research Forum, 2026.
-      </li>
+        <li>Virtual Reality</li>
 
-      <li>
-        <span class="bold">Y. Chauhan</span>, C. Wattamwar, G. Pareek, P. Shah
-        and D. Singh.,
-        <span class="italics">
-          "FusionFormer : A Lightweight Transformer-Based Continuous
-          Authentication using Keystroke Dynamics with Feature Fusion" </span
-        >, submitted to Computer Networks, 2026.
-      </li>
-    </ol>
+        <li>Secret Image Sharing</li>
+      </ul>
 
-    <h3>Conferences</h3>
+      <p class="areas-text">
+        Feel free to contact me if your interests align with mine, you'd like to
+        collaborate on a project, discuss research ideas, or need assistance
+        with coursework related to these areas. My contact information is
+        provided below.
+      </p>
 
-    <ol>
-      <li>
-        S. Sharma, T. Patel, <span class="bold">Y. Chauhan</span>, T. Patel, G.
-        Pareek, and P. B. R.,
-        <span class="italics">
-          "On (k, n) Threshold Secret Image Sharing Based on Pixel Coordinates
-          for Simple Images" </span
-        >, in Proc. 16th Int. Conf. on Computing, Communication and Networking
-        Technologies (ICCCNT), IIT Indore, India, Jul. 2025. To appear in EPiC
-        Series in Computing.
-      </li>
-    </ol>
+      <table class="contact-table">
+        <tr>
+          <td>Email</td>
+          <td>
+            <a href="mailto:26m0819@iitb.ac.in"> 26m0819@iitb.ac.in </a>
+          </td>
+        </tr>
 
-    <h2>Tools and Technologies</h2>
+        <tr>
+          <td>Phone</td>
+          <td>
+            <a href="tel:+918511538354"> +91 8511538354 </a>
+          </td>
+        </tr>
 
-    <h3>Programming Languages</h3>
+        <tr>
+          <td>Alt. Phone</td>
+          <td>
+            <a href="tel:+918866994461"> +91 8866994461 </a>
+          </td>
+        </tr>
 
-    <ul>
-      <li>Python</li>
-      <li>C/C++</li>
-      <li>JavaScript/TypeScript</li>
-    </ul>
+        <tr>
+          <td>Website</td>
+          <td>
+            <a href="https://dcodr1303.vercel.app" target="_blank">
+              dcodr1303.vercel.app
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
 
-    <h3>Web Technologies</h3>
+    <div class="publications" id="publications">
+      <div class="section-title">
+        <span>03</span>
+        <h2>Publications</h2>
+      </div>
 
-    <ul>
-      <li>HTML/CSS</li>
-      <li>React.js</li>
-      <li>Next.js</li>
-      <li>Node.js</li>
-    </ul>
+      <p class="publication-intro">
+        As a result of my research internships, I have contributed to several
+        publications in journals and conferences as a first author and
+        co-author.
+      </p>
 
-    <h3>Backend Frameworks</h3>
+      <h3>Journals</h3>
 
-    <ul>
-      <li>Flask</li>
-      <li>FastAPI</li>
-      <li>Django</li>
-      <li>Express.js</li>
-    </ul>
+      <ol class="publication-list">
+        <li>
+          <strong>Y. Chauhan</strong>, S. Sharma, G. Pareek, and P. B. R.,
+          "SO-SIS: Storage-Optimized Secret Image Sharing Scheme with Reduced
+          Share Size", <em>submitted to Operations Research Forum</em>, 2026.
+        </li>
 
-    <h3>Development Tools</h3>
+        <li>
+          <strong>Y. Chauhan</strong>, C. Wattamwar, G. Pareek, P. Shah and D.
+          Singh, "FusionFormer: A Lightweight Transformer-Based Continuous
+          Authentication using Keystroke Dynamics with Feature Fusion",
+          <em>submitted to Computer Networks</em>, 2026.
+        </li>
+      </ol>
 
-    <ul>
-      <li>Git/GitHub</li>
-      <li>Linux</li>
-      <li>LaTeX</li>
-    </ul>
+      <h3>Conferences</h3>
 
-    <h3>Scientific Computing & Engineering</h3>
+      <ol class="publication-list">
+        <li>
+          S. Sharma, T. Patel,
+          <strong>Y. Chauhan</strong>, T. Patel, G. Pareek, and P. B. R., "On
+          (k, n) Threshold Secret Image Sharing Based on Pixel Coordinates for
+          Simple Images", in
+          <em
+            >Proceedings of the 16th International Conference on Computing,
+            Communication and Networking Technologies (ICCCNT)</em
+          >, IIT Indore, India, July 2025.
+          <em>To appear in EPiC Series in Computing.</em>
+        </li>
+      </ol>
+    </div>
+    <div class="experience">
+      <div class="section-title">
+        <span>04</span>
+        <h2>Experience</h2>
+      </div>
 
-    <ul>
-      <li>MATLAB</li>
-    </ul>
+      <p class="experience-intro">
+        My research and teaching experiences span cryptography, machine
+        learning, cybersecurity, and full-stack web development.
+      </p>
 
-    <h3>Game Development & 3D Design</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
 
-    <ul>
-      <li>Unity</li>
-      <li>Blender</li>
-    </ul>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IIT Vadodara</h3>
+              <span>Jan 2026 – May 2026</span>
+            </div>
+
+            <h4>Research Intern</h4>
+
+            <p>
+              Researched continuous authentication using keystroke dynamics and
+              transformer-based models. Developed FusionFormer, a lightweight
+              approach achieving competitive authentication performance.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IIT Vadodara</h3>
+              <span>Sep 2025 – Nov 2025</span>
+            </div>
+
+            <h4>Teaching Assistant — Design & Analysis of Algorithms</h4>
+
+            <p>
+              Mentored and evaluated 100+ students while designing algorithmic
+              problems across multiple paradigms and deploying them through
+              HackerRank.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>NIT Karnataka</h3>
+              <span>May 2025 – Aug 2025</span>
+            </div>
+
+            <h4>Research Intern</h4>
+
+            <p>
+              Researched Secret Image Sharing schemes and developed a
+              storage-optimized approach that reduced share sizes while
+              improving existing techniques.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IIT Vadodara</h3>
+              <span>Jan 2025 – May 2025</span>
+            </div>
+
+            <h4>Teaching Assistant — Basics of Electrical Engineering</h4>
+
+            <p>
+              Conducted tutorials and supervised laboratory sessions, helping
+              students strengthen computational understanding of electrical
+              engineering concepts.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Dhankhar Technologies Pvt. Ltd.</h3>
+              <span>Sep 2024 – Nov 2024</span>
+            </div>
+
+            <h4>Web Developer Intern</h4>
+
+            <p>
+              Engineered and deployed the company's website using Next.js and
+              AWS Amplify, focusing on responsiveness, performance, and
+              production deployment.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>IIT Vadodara</h3>
+              <span>Jan 2024 – Dec 2024</span>
+            </div>
+
+            <h4>Teaching Assistant — Physics</h4>
+
+            <p>
+              Guided computational physics laboratory sessions using MATLAB and
+              numerical methods.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Technical Committee — IIITV-ICD</h3>
+              <span>Aug 2023 – Apr 2024</span>
+            </div>
+
+            <h4>Technical Committee Member</h4>
+
+            <p>
+              Built official websites for Horizon and Stavya, conducted frontend
+              workshops, and contributed to institute technical events.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script>
+    <script>
+      new Lenis({
+        autoRaf: true,
+        autoToggle: true,
+        anchors: true,
+        allowNestedScroll: true,
+        naiveDimensions: true,
+        stopInertiaOnNavigate: true,
+      });
+    </script>
   </body>
 </html>

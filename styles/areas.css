@@ -1,0 +1,58 @@
+.areas-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  margin: 0;
+  margin-bottom: 3rem;
+  padding: 0;
+
+  list-style: none;
+}
+
+.areas-list li {
+  padding: 0.8rem 1.5rem;
+
+  border: 1px solid #ddd;
+  border-radius: 999px;
+
+  background: #fafafa;
+
+  font-size: 0.95rem;
+
+  transition: 0.2s;
+}
+
+.areas-list li:hover {
+  background: #111;
+  border-color: #111;
+  color: white;
+}
+
+.areas-text {
+  max-width: 48rem;
+
+  color: #555;
+
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+@media (max-width: 768px) {
+  .areas-list {
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .areas-list li {
+    padding: 0.55rem 1rem;
+
+    font-size: 0.85rem;
+    line-height: 1.2;
+  }
+
+  .areas-text {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}
