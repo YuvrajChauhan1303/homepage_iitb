@@ -1,0 +1,102 @@
+.projects-page {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 2rem 2.5rem 6rem;
+}
+.project-year {
+  margin: 4rem 0 2rem;
+}
+.project-year:first-of-type {
+  margin-top: 3rem;
+}
+.project-year h3 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.project {
+  max-width: 90rem;
+  margin-bottom: 4rem;
+}
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.project-header h4 {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #111;
+}
+.project p {
+  margin: 0 0 1rem;
+  line-height: 1.9;
+  color: #444;
+}
+.tech {
+  color: #777;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.project-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.28rem 0.75rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.research {
+  background: #edf4ff;
+  color: #2563eb;
+}
+.security {
+  background: #f4efff;
+  color: #7c3aed;
+}
+.web {
+  background: #eefbf2;
+  color: #15803d;
+}
+.ml {
+  background: #fff8e8;
+  color: #ca8a04;
+}
+.backend {
+  background: #f3f4f6;
+  color: #374151;
+}
+.iot {
+  background: #eefdfa;
+  color: #0f766e;
+}
+.arvr {
+  background: #fff1f2;
+  color: #db2777;
+}
+@media (max-width: 48rem) {
+  .projects-page {
+    padding: 6rem 1.5rem 4rem;
+  }
+  .project-year h3 {
+    font-size: 1.6rem;
+  }
+  .project-header h4 {
+    font-size: 1.35rem;
+  }
+  .project p {
+    font-size: 0.95rem;
+  }
+  .project-label {
+    font-size: 0.65rem;
+  }
+}

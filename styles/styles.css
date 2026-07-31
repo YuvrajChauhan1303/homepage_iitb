@@ -10,6 +10,7 @@ body {
   margin: 0;
   color: #111;
   background: #fff;
+   
 }
 
 .section-title {
@@ -38,8 +39,10 @@ body {
 
 .about,
 .areas,
-.publications {
+.publications,
+.about-page {
   max-width: 75rem;
   margin: 0 auto;
   padding: 7rem 2.5rem;
+  
 }

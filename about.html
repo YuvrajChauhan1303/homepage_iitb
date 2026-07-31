@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About | Yuvraj Chauhan</title>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/menu.css" />
+    <link rel="stylesheet" href="./styles/fonts.css" />
+    <link rel="stylesheet" href="./styles/about-page.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.25/dist/lenis.css"
+    />
+  </head>
+
+  <body class="montserrat">
+    <div class="menu-container">
+      <div id="menu">
+        <a href="/index.html">Home</a>
+        <a href="/about.html">About</a>
+        <a href="/projects.html">Projects</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <button id="menu-btn" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <div class="about-page">
+      <div class="section-title">
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-content">
+        <p>
+          Hello, I'm Yuvraj. I've lived my entire life in Vadodara, Gujarat, and
+          I've completed my primary education from Gujarat Public School,
+          Atladara in Vadodara. During my school life, I picked up on a couple
+          of hobbies, such as solving rubik's cubes (NERD ALERT!!!) and playing
+          chess with my friends. I used to play basketball as well, and have
+          played on the district level representing my school. Along the way I
+          fell in love with Movies, specifically comic book movies or science
+          fiction, or spy movies. So, if you have an extra ticket for the next
+          Avenger's Movie, or when Batman 2 comes out. HMU!!! xD.
+        </p>
+        <p>
+          Coming to academics, I'm currently pursuing my Master of Technology in
+          the Department of Computer Science and Engineering at
+          <span class="blue">Indian Institute of Technology Bombay</span>.
+          Before landing here, I completed my Bachelor's in Computer Science and
+          Engineering from IIIT Vadodara (International Campus Diu). Looking
+          back, I think choosing Computer Science was inevitable. Too many spy
+          movies xD.
+        </p>
+
+        <p>
+          These days my interests revolve around Cryptography, Security &
+          Privacy <em>(bcoz why not?)</em>, Machine Learning, and Computing
+          Systems. During my undergraduate years, I got the opportunity to work
+          on research projects involving continuous authentication, secret image
+          sharing, and a few other interesting problems, which eventually led to
+          conference publications and journal submissions. Research has been a
+          surprisingly fun experience. Reading papers at 2 AM? Not so much.
+        </p>
+
+        <p>
+          Apart from research, the thing that I enjoy most is designing a high
+          level overview of complex systems. I like thinking out loud, charting
+          my ideas out, realising they're stupid and coming up with better
+          designs. My experience in web development, and developing
+          cryptographic systems using web development have been the most fun and
+          frustrating projects. Pump me up with coffee, give me a white board, a
+          marker, and a couple friends to discuss with, I'm basically House
+          without his cane, wits and vicodin.
+        </p>
+
+        <p>
+          Outside academics, you'll probably find me listening to Indian hiphop,
+          watching the 0.25x breakdown by Canadian Lad, or Over Analyzing One
+          Piece. I'm always up for talking about technology, movies, basketball,
+          or why Batman is clearly the best written comic book character. If
+          you're into any of those, we'll probably get along.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/lenis@1.3.25/dist/lenis.min.js"></script>
+    <script>
+      new Lenis({
+        autoRaf: true,
+        autoToggle: true,
+        anchors: true,
+        allowNestedScroll: true,
+        naiveDimensions: true,
+        stopInertiaOnNavigate: true,
+      });
+    </script>
+  </body>
+</html>

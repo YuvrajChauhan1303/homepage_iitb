@@ -1,26 +1,22 @@
-const nameElem = document.getElementById("name");
-const name = "Yuvraj Chauhan";
 
-let index = 0;
+const menuBtn = document.getElementById("menu-btn");
+const menu = document.getElementById("menu");
 
-function writeName() {
-  if (index < name.length) {
-    nameElem.textContent += name[index];
-    index++;
-    setTimeout(writeName, 120);
-  } else {
-    setTimeout(eraseName, 3000);
-  }
-}
+menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("active");
+    menuBtn.classList.toggle("active");
+});
 
-function eraseName() {
-  if (index > 0) {
-    index--;
-    nameElem.textContent = name.substring(0, index);
-    setTimeout(eraseName, 30);
-  } else {
-    setTimeout(writeName, 1000);
-  }
-}
+document.addEventListener("click", (e) => {
+    if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+        menu.classList.remove("active");
+        menuBtn.classList.remove("active");
+    }
+});
 
-writeName();
+document.addEventListener("scroll", (e) => {
+  if (!menu.contains(e.target) && !menuBtn.contains(e.target)) {
+        menu.classList.remove("active");
+        menuBtn.classList.remove("active");
+    }
+})
