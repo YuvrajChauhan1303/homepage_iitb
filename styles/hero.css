@@ -121,18 +121,18 @@
   }
 
   .hello-txt {
-    font-size: 1rem;
+    font-size: 5vw;
     margin-bottom: 0.25rem;
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 8vw;
   }
 
   .hero h2 {
     margin: 1rem 0;
 
-    font-size: 1.1rem;
+    font-size: 4.2vw;
     line-height: 1.35;
   }
 
@@ -141,7 +141,7 @@
 
     margin-bottom: 2rem;
 
-    font-size: 0.8rem;
+    font-size: 3.75vw;
     line-height: 1.7;
   }
 
