@@ -1,5 +1,5 @@
 const nameElem = document.getElementById("name");
-const name = "Yuvraj Chauhan";
+const name = "yuvrajdcodr";
 
 let index = 0;
 
